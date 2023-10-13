@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>640</w>
+      <h>350</h>
+    </coordinates>
+    <panel_attributes>assignment::Vendors
+--
+-companyName: String
+-email: String
+-phoneNumber: int
+-address: String
+-activity: String
+--
+~Vendors(String companyName, String email, int phoneNumber, String address, String activity): ctor
+~setCompanyName(String companyName): void
+~setEmail(String email): void
+~setPhoneNumber(int number): void
+~setAddress(String address): void
+~setActivity(String activity): void
+~getCompanyName(): String
+~getEmail(): String
+~getPhoneNumber(): int
+~getAddress(): String
+~getActivity(): String
+~customerInfo(): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
